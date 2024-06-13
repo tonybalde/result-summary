@@ -5,43 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="main-container">
+    <div class="your-result">
+      <h1 class="your-result-text">Your Result</h1>
+      <div class="main-numbers">
+          <div class="big-number">76</div>
+          <div class="small-number">of 100</div>
+      </div>
+      <div class="result-text">
+        <h2>Great</h2>
+        <p class="para-results">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="summary">
+      <h1 class="summary-text">Summary</h1>
+      <div class="scores-container">
+        <div class="reaction-item">
+          <div class="text-icon">
+            <img src="./assets/images/icon-reaction.svg" class="icon">
+            <h3 class="score-text reaction-text">Reaction</h3>
+          </div>
+          <div class="two-numbers">
+            <span class="first-number">80</span> / <span class="second-number">100</span> 
+          </div>
+        </div>
+        <div class="reaction-item">
+          <div class="text-icon">
+            <img src="./assets/images/icon-memory.svg" class="icon">
+            <h3 class="score-text memory-text">Memory</h3>
+          </div>
+          <div class="two-numbers">
+            <span class="first-number">92</span> / <span class="second-number">100</span> 
+          </div>
+        </div>
+        <div class="reaction-item">
+          <div class="text-icon">
+            <img src="./assets/images/icon-verbal.svg" class="icon">
+            <h3 class="score-text verbal-text">Verbal</h3>
+          </div>
+          <div class="two-numbers">
+            <span class="first-number">61</span> / <span class="second-number">100</span> 
+          </div>
+        </div>
+        <div class="reaction-item">
+          <div class="text-icon">
+            <img src="./assets/images/icon-visual.svg" class="icon">
+            <h3 class="score-text visual-text">Visual</h3>
+          </div>
+          <div class="two-numbers">
+            <span class="first-number">72</span> / <span class="second-number">100</span> 
+          </div>
+        </div>
+      </div>
+      <button>Continue</button>
+    </div>     
+  </div>
 
-  Your Result
-  76
-  of 100
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.github.com/tonybalde" target="_blank">Tony Baldessari</a>.
   </div>
 </body>
 </html>
